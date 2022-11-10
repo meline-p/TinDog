@@ -1,0 +1,161 @@
+/**************************** TAG SELECTORS *****************************/
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/************************** ID & CLASS SELECTORS ***************************/
+
+/***************************** HEADINGS *******************************/
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/***************************** CONTAINERS *******************************/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/***************************** SECTIONS *******************************/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/***************************** SECTION TITLE *******************************/
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.mockup-img{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+/***************************** SECTION FEATURES *******************************/
+#features{
+    position: relative;
+}
+.features-title{
+    font-size: 1.5rem;
+}
+.features-item{
+    padding: 5%;
+}
+
+.features-icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icons:hover{
+    color: #ff4c68;
+}
+
+/***************************** SECTION TESTIMONIALS *******************************/
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/***************************** SECTION PRESS *******************************/
+#press{
+    background-color: #ef8172; 
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/***************************** SECTION PRICING *******************************/
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/***************************** SECTION CTA *******************************/
+
+/***************************** SECTION FOOTER *******************************/
+
+.social-icons{
+    margin: 20px 10px;
+}
+
+/****************************** MEDIA QUERY *******************************/
+
+@media (max-width: 990px) {
+    .mockup-img{
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
